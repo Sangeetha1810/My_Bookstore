@@ -1,0 +1,240 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333; /* Dark text for readability */
+    background-color: #fff; /* Removed the gradient background */
+    background-image: url('images/background.jpg'); /* Change to your actual image path */
+    background-size: cover; /* Ensures the image covers the whole page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+}
+
+/* Header & Navigation */
+header {
+    background-color: #4B0082; /* Changed black to navy blue */
+    color: white;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Book Categories Section */
+.categories {
+    padding: 20px;
+}
+
+.category-grid {
+    display: flex; /* Changed from grid to flex for horizontal layout */
+    justify-content: center; /* Center the items horizontally */
+    flex-wrap: wrap; /* Allow wrapping for responsiveness */
+    gap: 15px;
+    padding: 20px;
+}
+
+.category {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    width: 200px; /* Fixed width for uniformity */
+    text-align: center;
+}
+
+.category img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.category:hover {
+    transform: scale(1.05);
+}
+
+h3 {
+    margin-top: 10px;
+    color: #e44d26; /* Category text changed to navy blue */
+}
+
+/* Book Collection Page */
+.book-collection {
+    padding: 20px;
+}
+
+.book-grid {
+    display: flex; /* Changed from grid to flex for horizontal layout */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.book {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    text-align: center;
+    width: 200px; /* Fixed width for uniformity */
+}
+
+.book img {
+    width: 100%;
+    height: auto; /* Adjusts height automatically */
+    object-fit: contain; /* Ensures the full image is visible */
+    border-radius: 5px;
+}
+
+
+.book:hover {
+    transform: scale(1.05);
+}
+
+/* Price Styling */
+.price {
+    font-weight: bold;
+    color: #e44d26;
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+    background-color: #e44d26;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #ff6347;
+}
+/* About Page Styling */
+.about-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about-section h3 {
+    font-size: 22px;
+    color: #222;
+    margin-top: 20px;
+}
+
+.about-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-section ul li {
+    font-size: 18px;
+    color: #666;
+    margin: 8px 0;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #333;
+    color: white;
+    margin-top: 40px;
+    font-size: 16px;
+}
+.cart-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.cart-item img {
+    width: 80px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.remove-from-cart {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+/* Styles for Add to Cart buttons inside books */
+.book button {
+    background-color: #ff6600;  /* Bright orange */
+    color: white;  /* White text */
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;  /* Rounded corners */
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover Effect */
+.book button:hover {
+    background-color: #cc5500;  /* Darker orange */
+    transform: scale(1.05);  /* Slight zoom effect */
+}
+
+/* Click (Active) Effect */
+.book button:active {
+    background-color: #aa4400;  /* Even darker on click */
+    transform: scale(0.98);
+}
+
