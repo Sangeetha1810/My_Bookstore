@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horror Books - My Bookstore</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Horror Books</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="book-collection">
+        <h2>Explore Our Horror Books</h2>
+        <div class="book-grid">
+            <div class="book">
+                <img src="images/horror1.jpg" alt="Horror Book 1">
+                <h3>Pet sematary</h3>
+                <p>A terrifying tale of a burial ground with dark secrets.</p>
+                <p class="price">430/-</p>
+                <button class="add-to-cart" onclick="addToCart('Pet sematary', '430/-', 'images/horror1.jpg')">Add to Cart</button>
+            </div>
+
+            <div class="book">
+                <img src="images/horror2.jpg" alt="Horror Book 2">
+                <h3>The exorcist</h3>
+                <p> A chilling story of demonic possession and exorcism.
+                </p>
+                <p class="price">1820/-</p>
+                <button class="add-to-cart" onclick="addToCart('The exorcist', '1820-', 'images/horror2.jpg')">Add to Cart</button>
+            </div>
+
+            <div class="book">
+                <img src="images/horror3.jpg" alt="Horror Book 3">
+                <h3>The Other Black Girl</h3>
+                <p>A psychological thriller about workplace horror.</p>
+                <p class="price">1600/-</p>
+                <button class="add-to-cart" onclick="addToCart('The Other Black Girl', '1600/-', 'images/horror3.jpg')">Add to Cart</button>
+            </div>
+
+            <div class="book">
+                <img src="images/horror4.jpg" alt="Horror Book 4">
+                <h3>Horrors Of The Night</h3>
+                <p> A collection of eerie and twisted horror stories.</p>
+                <p class="price">800/-</p>
+                <button class="add-to-cart" onclick="addToCart('Horrors Of The Night', '800/-', 'images/horror4.jpg')">Add to Cart</button>
+            </div>
+            <div class="book">
+                <img src="images/horror5.jpg" alt="Horror Book 4">
+                <h3>Night Of Terror</h3>
+                <p> A haunted tale based on a true story.</p>
+                <p class="price">750/-</p>
+                <button class="add-to-cart" onclick="addToCart('Night Of Terror', '750/-', 'images/horror5.jpg')">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    <script src="cart.js"></script>
+</body>
+</html>
