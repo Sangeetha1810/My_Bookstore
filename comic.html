@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comic Books - My Bookstore</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Comic Books</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="book-collection">
+        <h2>Explore Our Comic Books</h2>
+        <div class="book-grid">
+            <div class="book">
+                <img src="images/comic1.jpg" alt="Comic Book 1">
+                <h3>Watchmen</h3>
+                <p> A dark and gripping superhero tale.!</p>
+                <p class="price">1900/-</p>
+                <button class="add-to-cart" onclick="addToCart('Watchmen', '1900/-', 'images/comic1.jpg')">Add to Cart</button>
+            </div>
+
+            <div class="book">
+                <img src="images/comic2.jpg" alt="Comic Book 2">
+                <h3>Simpsons</h3>
+                <p>A hilarious comic collection.</p>
+                <p class="price">700/-</p>
+                <button class="add-to-cart" onclick="addToCart('Simpsons', '700/-', 'images/comic2.jpg')">Add to Cart</button>
+            </div>
+
+            <div class="book">
+                <img src="images/comic3.jpg" alt="Comic Book 3">
+                <h3>Moomin</h3>
+                <p>An intergalactic comic adventure.</p>
+                <p class="price">500/-</p>
+                <button class="add-to-cart" onclick="addToCart('Moomin', '500/-', 'images/comic3.jpg')">Add to Cart</button>
+            </div>
+
+            <div class="book">
+                <img src="images/comic4.jpg" alt="Comic Book 4">
+                <h3>Tragedy Plus Time</h3>
+                <p>A tragicomic memoir.</p>
+                <p class="price">900/-</p>
+                <button class="add-to-cart" onclick="addToCart('Tragedy Plus Time', '900/-', 'images/comic4.jpg')">Add to Cart</button>
+            </div>
+            <div class="book">
+                <img src="images/comic5.jpg" alt="Comic Book 3">
+                <h3>Find:A Comic About Gender </h3>
+                <p> A deep look into gender identity.</p>
+                <p class="price">600/-</p>
+                <button class="add-to-cart" onclick="addToCart('Find:A Comic About Gender', '600/-', 'images/comic5.jpg')">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    <script src="cart.js"></script>
+</body>
+</html>
