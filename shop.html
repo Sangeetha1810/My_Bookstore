@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - My Bookstore</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Shop All Books</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="book-collection">
+        <h2>Explore Our Books</h2>
+
+        <!-- Sci-Fi Books -->
+        <h3>Sci-Fi Books</h3>
+        <div class="book-grid">
+            <div class="book"><img src="images/sci-fi1.jpg" alt="Sci-Fi 1"><h3>Galactic Wars</h3><p>799/-</p><button onclick="addToCart('Galactic Wars', 799, 'images/sci-fi1.jpg')">Add to Cart</button></div>
+            <div class="book"><img src="images/sci-fi2.jpg" alt="Sci-Fi 2"><h3>Dune</h3><p>1999/-</p><button onclick="addToCart('Dune', 1999, 'images/sci-fi2.jpg')">Add to Cart</button></div>
+            <div class="book"><img src="images/sci-fi3.jpg" alt="Sci-Fi 3"><h3>Fahrenheit 451</h3><p>990/-</p><button onclick="addToCart('Fahrenheit 451', 990, 'images/sci-fi3.jpg')">Add to Cart</button></div>
+            <div class="book"><img src="images/sci-fi4.jpg" alt="Sci-Fi 4"><h3>Ready Player One</h3><p>850/-</p><button onclick="addToCart('Ready Player One', 850, 'images/sci-fi4.jpg')">Add to Cart</button></div>
+            <div class="book"><img src="images/sci-fi5.jpg" alt="Sci-Fi 5"><h3>Slaughterhouse-Five</h3><p>1100/-</p><button onclick="addToCart('Slaughterhouse-Five', 1100, 'images/sci-fi5.jpg')">Add to Cart</button></div>
+        </div>
+
+        <!-- Romance Books -->
+        <h3>Romance Books</h3>
+        <div class="book-grid">
+            <div class="book"><img src="images/romance1.jpg" alt="Romance 1"><h3>Love in Paris</h3><p>375/-</p><button onclick="addToCart('Love in Paris', 375, 'images/romance1.jpg')">Add to Cart</button></div>
+            <div class="book"><img src="images/romance2.jpeg" alt="Romance 2"><h3>People We Meet on Vacation</h3><p>1200/-</p><button onclick="addToCart('People We Meet on Vacation', 1200, 'images/romance2.jpeg')">Add to Cart</button></div>
+            <div class="book"><img src="images/romance3.jpg" alt="Romance 3"><h3>The Love Hypothesis</h3><p>990/-</p><button onclick="addToCart('The Love Hypothesis', 990, 'images/romance3.jpg')">Add to Cart</button></div>
+            <div class="book"><img src="images/romance4.jpg" alt="Romance 4"><h3>Love From A to Z</h3><p>599/-</p><button onclick="addToCart('Love From A to Z', 599, 'images/romance4.jpg')">Add to Cart</button></div>
+            <div class="book"><img src="images/romance5.jpeg" alt="Romance 5"><h3>Happy Place</h3><p>660/-</p><button onclick="addToCart('Happy Place', 660, 'images/romance5.jpeg')">Add to Cart</button></div>
+        </div>
+
+        <!-- Horror Books -->
+        <h3>Horror Books</h3>
+        <div class="book-grid">
+            <div class="book"><img src="images/horror1.jpg" alt="Horror 1"><h3>Pet Sematary</h3><p>430/-</p><button onclick="addToCart('Pet Sematary', 430, 'images/horror1.jpg')">Add to Cart</button></div>
+            <div class="book"><img src="images/horror2.jpg" alt="Horror 2"><h3>The Exorcist</h3><p>1820/-</p><button onclick="addToCart('The Exorcist', 1820, 'images/horror2.jpg')">Add to Cart</button></div>
+            <div class="book"><img src="images/horror3.jpg" alt="Horror 3"><h3>The Other Black Girl</h3><p>1600/-</p><button onclick="addToCart('The Other Black Girl', 1600, 'images/horror3.jpg')">Add to Cart</button></div>
+            <div class="book"><img src="images/horror4.jpg" alt="Horror 4"><h3>Horrors Of The Night</h3><p>800/-</p><button onclick="addToCart('Horrors Of The Night', 800, 'images/horror4.jpg')">Add to Cart</button></div>
+            <div class="book"><img src="images/horror5.jpg" alt="Horror 5"><h3>Night Of Terror</h3><p>750/-</p><button onclick="addToCart('Night Of Terror', 750, 'images/horror5.jpg')">Add to Cart</button></div>
+        </div>
+
+        <!-- Fantasy Books -->
+        <h3>Fantasy Books</h3>
+        <div class="book-grid">
+            <div class="book"><img src="images/fantasy1.jpg" alt="Fantasy 1"><h3>The Lord of the Rings</h3><p>1500/-</p><button onclick="addToCart('The Lord of the Rings', 1500, 'images/fantasy1.jpg')">Add to Cart</button></div>
+            <div class="book"><img src="images/fantasy2.jpg" alt="Fantasy 2"><h3>The Chronicles of Narnia</h3><p>500/-</p><button onclick="addToCart('The Chronicles of Narnia', 500, 'images/fantasy2.jpg')">Add to Cart</button></div>
+            <div class="book"><img src="images/fantasy3.jpg" alt="Fantasy 3"><h3>The Hobbit</h3><p>400/-</p><button onclick="addToCart('The Hobbit', 400, 'images/fantasy3.jpg')">Add to Cart</button></div>
+            <div class="book"><img src="images/fantasy4.jpg" alt="Fantasy 4"><h3>Harry potter</h3><p>1000/-</p><button onclick="addToCart('Harry potter', 1000, 'images/fantasy4.jpg')">Add to Cart</button></div>
+            <div class="book"><img src="images/fantasy5.jpg" alt="Fantasy 5"><h3>The Wheel of Time</h3><p>450/-</p><button onclick="addToCart('The Wheel of Time', 450, 'images/fantasy5.jpg')">Add to Cart</button></div>
+        </div>
+
+        <!-- Comic Books -->
+        <h3>Comic Books</h3>
+        <div class="book-grid">
+            <div class="book"><img src="images/comic1.jpg" alt="Comic 1"><h3>Watchmen</h3><p>1900/-</p><button onclick="addToCart('Watchmen', 1900, 'images/comic1.jpg')">Add to Cart</button></div>
+            <div class="book"><img src="images/comic2.jpg" alt="Comic 2"><h3>Spider-Man: Homecoming</h3><p>999/-</p><button onclick="addToCart('Spider-Man: Homecoming', 999, 'images/comic2.jpg')">Add to Cart</button></div>
+            <div class="book"><img src="images/comic3.jpg" alt="Comic 3"><h3>Batman: The Killing Joke</h3><p>1200/-</p><button onclick="addToCart('Batman: The Killing Joke', 1200, 'images/comic3.jpg')">Add to Cart</button></div>
+            <div class="book"><img src="images/comic4.jpg" alt="Comic 3"><h3>Tragedy plus Time</h3><p>1350/-</p><button onclick="addToCart('Tragedy plus Time', 1350, 'images/comic4.jpg')">Add to Cart</button></div>
+            <div class="book"><img src="images/comic5.jpg" alt="Comic 3"><h3>Find:A Comic About Gender</h3><p>899/-</p><button onclick="addToCart('Find:A Comic About Gender', 899, 'images/comic5.jpg')">Add to Cart</button></div>
+        </div>
+
+    </section>
+    <script src="cart.js"></script>
+</body>
+</html>
