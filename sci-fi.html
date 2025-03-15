@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sci-Fi Books - My Bookstore</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sci-Fi Books</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="book-collection">
+        <h2>Explore Our Sci-Fi Books</h2>
+        <div class="book-grid">
+            <div class="book">
+                <img src="images/sci-fi1.jpg" alt="Sci-Fi Book 1">
+                <h3>Galactic Wars</h3>
+                <p>A space opera with interstellar battles and survival struggles.</p>
+                <p class="price">799/-</p>
+                <button class="add-to-cart" onclick="addToCart('Galactic Wars', '799', 'images/sci-fi1.jpg')">Add to Cart</button>
+            </div>
+
+            <div class="book">
+                <img src="images/sci-fi2.jpg" alt="Sci-Fi Book 2">
+                <h3>Dune</h3>
+                <p>A sci-fi epic of politics, prophecy, and desert survival.</p>
+                <p class="price">1999/-</p>
+                <button class="add-to-cart" onclick="addToCart('Dune', '1999/-', 'images/sci-fi2.jpg')">Add to Cart</button>
+
+            </div>
+
+            <div class="book">
+                <img src="images/sci-fi3.jpg" alt="Sci-Fi Book 3">
+                <h3>Fahrenheit451</h3>
+                <p>A dystopian tale where books are banned and burned.</p>
+                <p class="price">990/-</p>
+                <button class="add-to-cart" onclick="addToCart('Fahrenheit451', '990/-', 'images/sci-fi3.jpg')">Add to Cart</button>
+            </div>
+
+            <div class="book">
+                <img src="images/sci-fi4.jpg" alt="Sci-Fi Book 4">
+                <h3>Ready Player One</h3>
+                <p>A virtual reality treasure hunt with high stakes.</p>
+                <p class="price">850/-</p>
+                <button class="add-to-cart" onclick="addToCart('Ready Player One', '850/-', 'images/sci-fi4.jpg')">Add to Cart</button>
+            </div>
+            <div class="book">
+                <img src="images/sci-fi5.jpg" alt="Sci-Fi Book 5">
+                <h3>Slaughter House-Five</h3>
+                <p> A war satire with time travel and surreal events.</p>
+                <p class="price">1100/-</p>
+                <button class="add-to-cart" onclick="addToCart('Slaughter House-Five', '1100/-', 'images/sci-fi5.jpg')">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    <script src="cart.js"></script>
+</body>
+</html>
